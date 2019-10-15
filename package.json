@@ -1,0 +1,27 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "my learning road",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muzi131313/blog.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "roastwind",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muzi131313/blog/issues"
+  },
+  "homepage": "https://github.com/muzi131313/blog#readme",
+  "devDependencies": {
+    "vuepress": "^1.2.0"
+  }
+}
