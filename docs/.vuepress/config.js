@@ -1,11 +1,13 @@
 module.exports = {
   title: 'blog',
-  base: '/blog/',
   description: 'record my learning road',
+  // 基础目录
+  base: '/blog/',
   // webpack配置
   configureWebpack: {
     resolve: {
       alias: {
+        // 静态资源放置目录
         '@alias': './public'
       }
     }

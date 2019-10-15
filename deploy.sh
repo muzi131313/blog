@@ -27,4 +27,5 @@ git remote add origin https://github.com/muzi131313/blog.git
 git push -f https://github.com/muzi131313/blog.git master:gh-pages
 # node deploy.js
 
+# 返回到项目根目录
 cd -
