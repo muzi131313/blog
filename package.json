@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/muzi131313/blog#readme",
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "vuepress": "^1.2.0"
   }
 }
