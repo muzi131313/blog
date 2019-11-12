@@ -48,7 +48,8 @@ module.exports = {
           collapsable: true,
           children: [
             '/basic/front/front-1.md',
-            '/basic/front/front-2.md'
+            '/basic/front/front-2.md',
+            '/basic/front/front-3.md'
           ]
         }
       ]
