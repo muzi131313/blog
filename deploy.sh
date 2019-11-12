@@ -24,7 +24,7 @@ git remote add origin https://github.com/muzi131313/blog.git
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/muzi131313/blog.git master:gh-pages
+git push -f "https://${access_token}@github.com/muzi131313/blog.git" master:gh-pages
 # node deploy.js
 
 # 返回到项目根目录
