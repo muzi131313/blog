@@ -19,7 +19,6 @@
             - `Boolean`
             - `String`
             - `Number`
-
 ### `Symbol` 的特点是什么?
 - 实例是唯一的, 想创建两个一样的, 需要使用 `Symbol.for()`
 - 不能使用构造函数去创建, 通过 `Symbol()` 函数生成
