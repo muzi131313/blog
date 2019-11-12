@@ -37,8 +37,7 @@ module.exports = {
     // 菜单栏
     nav: [
       { text: '概述', link: '/' },
-      { text: '前端基础', link: '/basic/' },
-      // { text: 'GitHub', link: 'https://github.com/muzi131313/blog' }
+      { text: '前端基础', link: '/basic/' }
     ],
     // 侧边栏
     sidebar: {
