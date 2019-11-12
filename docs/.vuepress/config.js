@@ -47,7 +47,8 @@ module.exports = {
           title: '前端基础',
           collapsable: true,
           children: [
-            '/basic/front/front-1.md'
+            '/basic/front/front-1.md',
+            '/basic/front/front-2.md'
           ]
         }
       ]
