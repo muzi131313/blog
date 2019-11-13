@@ -47,8 +47,10 @@ module.exports = {
           collapsable: true,
           children: [
             '/basic/front/front-1.md',
-            '/basic/front/front-2.md',
-            '/basic/front/front-3.md'
+            '/basic/front/front-data-type.md',
+            '/basic/front/front-extend.md',
+            '/basic/front/front-memory-and-data-constructor.md',
+            '/basic/front/front-deep-clone.md',
           ]
         }
       ]
