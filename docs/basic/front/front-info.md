@@ -35,3 +35,5 @@ title: 1. 什么是前端
   > 知其所然、知其所以然，了解原理，是为了更好的使用，或者更好的解决业务问题
 
   - [关于框架源码的学习](https://www.zhihu.com/question/350289336/answer/873350617)
+- 前端的历史
+  - [JavaScript 语言的历史](https://wangdoc.com/javascript/basic/history.html)
