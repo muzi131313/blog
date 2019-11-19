@@ -46,10 +46,11 @@ module.exports = {
           title: '前端基础',
           collapsable: true,
           children: [
-            '/basic/front/front-1.md',
+            '/basic/front/front-info.md',
             '/basic/front/front-data-type.md',
-            '/basic/front/front-extend.md',
             '/basic/front/front-memory-and-data-constructor.md',
+            '/basic/front/front-event-loop.md',
+            '/basic/front/front-extend.md',
             '/basic/front/front-deep-clone.md',
           ]
         }
