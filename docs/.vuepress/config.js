@@ -37,21 +37,28 @@ module.exports = {
     // 菜单栏
     nav: [
       { text: '概述', link: '/' },
-      { text: '前端基础', link: '/basic/' }
+      { text: '前端基础', link: '/front/' }
     ],
     // 侧边栏
     sidebar: {
-      '/basic/': [
+      '/front/': [
         {
-          title: '前端基础',
+          title: 'JavaScript',
           collapsable: true,
           children: [
-            '/basic/front/front-info.md',
-            '/basic/front/front-data-type.md',
-            '/basic/front/front-memory-and-data-constructor.md',
-            '/basic/front/front-event-loop.md',
-            '/basic/front/front-extend.md',
-            '/basic/front/front-deep-clone.md',
+            '/front/basic/javascript/javascript-info.md',
+            '/front/basic/javascript/javascript-data-type.md',
+            '/front/basic/javascript/javascript-memory-and-data-constructor.md',
+            '/front/basic/javascript/javascript-event-loop.md',
+            '/front/basic/javascript/javascript-extend.md',
+            '/front/basic/javascript/javascript-deep-clone.md',
+          ]
+        },
+        {
+          title: 'CSS',
+          collapsable: false,
+          children: [
+            '/front/basic/css/css-basic.md'
           ]
         }
       ]

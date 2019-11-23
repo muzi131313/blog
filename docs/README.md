@@ -2,7 +2,7 @@
 home: true
 heroImage: img/roastwind.png
 actionText: go, go →
-actionLink: /basic/
+actionLink: /front/
 features:
 - title: 前端基础
   details: 深挖前端基础, 补全自己的前端体系, 增强自己的前端技能, 做一个合格的前端开发者
