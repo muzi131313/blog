@@ -58,7 +58,8 @@ module.exports = {
           title: 'CSS',
           collapsable: false,
           children: [
-            '/front/basic/css/css-basic.md'
+            '/front/basic/css/css-basic.md',
+            '/front/basic/css/css-in-center.md'
           ]
         }
       ]
