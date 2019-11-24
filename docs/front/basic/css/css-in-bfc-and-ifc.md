@@ -100,7 +100,3 @@ title: 3. CSS BFC/IFC
 - [w3#block-formatting](https://www.w3.org/TR/CSS2/visuren.html#block-formatting)
 - [css布局的各种FC简单介绍：BFC，IFC，GFC，FFC](https://segmentfault.com/a/1190000014886753)
 - [格式化上下文](https://wy1009.github.io/2017/03/29/%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%B8%8A%E4%B8%8B%E6%96%87/)
-- table-cell
-    - [我所知道的几种display:table-cell的应用 | 张鑫旭](https://www.zhangxinxu.com/wordpress/2010/10/%E6%88%91%E6%89%80%E7%9F%A5%E9%81%93%E7%9A%84%E5%87%A0%E7%A7%8Ddisplaytable-cell%E7%9A%84%E5%BA%94%E7%94%A8/)
-    - [CSS——布局布局神器display:table-cell](https://www.jianshu.com/p/2479665ee1f8)
-    - [css布局：table，table-cell](https://www.jianshu.com/p/47594ca109a8)
