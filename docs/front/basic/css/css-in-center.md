@@ -60,3 +60,4 @@ title: 2. CSS居中布局
 ## 参考资料
 - [16种方法实现水平居中垂直居中](https://louiszhai.github.io/2016/03/12/css-center/)
 - [使用CSS让一个元素水平垂直居中](https://github.com/YvetteLau/Step-By-Step/issues/42)
+- [CSS布局之-水平垂直居中](https://div.io/topic/1155)
