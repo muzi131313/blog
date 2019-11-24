@@ -45,7 +45,9 @@ title: 2. CSS居中布局
 
 ### 水平垂直居中
 - `flex` + `justify-content` + `align-items`
-    - [示例1.flex](https://codepen.io/muzi131313/pen/qBBGEYX)
+    - [示例1.1.FFC:flex](https://codepen.io/muzi131313/pen/qBBGEYX)
+- `flex` + 子元素`margin: auto`
+    - [示例1.2.flex+margin](https://codepen.io/muzi131313/pen/qBBGEYX)
 - `absolute` + `transform`
     - [示例2.absolute+transform](https://codepen.io/muzi131313/pen/qBBGEYX)
 - 已知元素宽高：绝对定位 + `margin: auto`
@@ -53,11 +55,18 @@ title: 2. CSS居中布局
 - 已知元素宽高：绝对定位 + 负`margin`
     - [示例3.2.absolute+-margin](https://codepen.io/muzi131313/pen/qBBGEYX)
 - `table-cell`
-    - [示例4.table-cell+text-align+vertical-align](https://codepen.io/muzi131313/pen/qBBGEYX)
-- `IFC` + `text-align`
-    - [示例5.IFC+text-align](https://codepen.io/muzi131313/pen/qBBGEYX)
+    - [示例4.1.IFC(已知宽度)](https://codepen.io/muzi131313/pen/qBBGEYX)
+    - [示例4.2.IFC(未知宽度)](https://codepen.io/muzi131313/pen/qBBGEYX)
+- `text-align: center;`、`display: inline-block` + `height: 100%`
+    - [示例5.1.BFC](https://codepen.io/muzi131313/pen/qBBGEYX)
+- `text-align: center;` + `line-height`
+    - [示例5.2.text-align+line-height](https://codepen.io/muzi131313/pen/qBBGEYX)
+- 父元素`padding`
+    - [示例6.padding](https://codepen.io/muzi131313/pen/qBBGEYX)
+- 子元素`margin`
+    - [示例7.margin](https://codepen.io/muzi131313/pen/qBBGEYX)
 
 ## 参考资料
-- [16种方法实现水平居中垂直居中](https://louiszhai.github.io/2016/03/12/css-center/)
-- [使用CSS让一个元素水平垂直居中](https://github.com/YvetteLau/Step-By-Step/issues/42)
-- [CSS布局之-水平垂直居中](https://div.io/topic/1155)
+- [16种方法实现水平居中垂直居中 | louiszhai](https://louiszhai.github.io/2016/03/12/css-center/)
+- [使用CSS让一个元素水平垂直居中 | github#issues](https://github.com/YvetteLau/Step-By-Step/issues/42)
+- [CSS布局之-水平垂直居中 | div.io](https://div.io/topic/1155)
