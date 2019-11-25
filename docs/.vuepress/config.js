@@ -60,7 +60,8 @@ module.exports = {
           children: [
             '/front/basic/css/css-basic.md',
             '/front/basic/css/css-in-center.md',
-            '/front/basic/css/css-in-bfc-and-ifc.md'
+            '/front/basic/css/css-in-bfc-and-ifc.md',
+            '/front/basic/css/css-float.md'
           ]
         }
       ]
