@@ -210,6 +210,8 @@ title: 2. 数据类型基础
 - [JavaScript类型转换](https://juejin.im/post/5dc431a0e51d4504be09ca8c)
 - [【JS迷你书】类型转换之装箱操作](https://juejin.im/post/5cbaf130518825325050fb0a)
 - [JS最新基本数据类型：BigInt](https://juejin.im/post/5d3f8402f265da039e129574)
+- [JavaScript 浮点数陷阱及解法](https://github.com/camsong/blog/issues/9)
+- [加减危机 —— 为什么会出现这样的结果？](https://mp.weixin.qq.com/s/nWacVMwTpGBlMquZhRAvYg)
 - 文档类
     - [非严格相等](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Equality_comparisons_and_sameness#%E9%9D%9E%E4%B8%A5%E6%A0%BC%E7%9B%B8%E7%AD%89)
     - [ecma-262#sec-11.9.3](http://ecma-international.org/ecma-262/5.1/#sec-11.9.3)
