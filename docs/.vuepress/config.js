@@ -64,6 +64,15 @@ module.exports = {
             '/front/basic/css/css-float.md',
             '/front/basic/css/css-table-cell.md'
           ]
+        },
+        {
+          title: 'HTML',
+          collapsable: false,
+          children: [
+            '/front/basic/html/html-basic.md',
+            '/front/basic/html/html-browser.md',
+            '/front/basic/html/html-data-storage.md'
+          ]
         }
       ]
     }
