@@ -75,6 +75,15 @@ module.exports = {
             '/front/basic/html/html-data-storage.md'
           ]
         }
+      ],
+      '/tools/': [
+        {
+          title: 'FE',
+          collapsable: true,
+          children: [
+            '/front/tools/mac/dos.md'
+          ]
+        }
       ]
     }
   }
