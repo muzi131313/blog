@@ -1,5 +1,5 @@
 ---
-title: 1. 命令窗口
+title: 1. zsh+oh-my-zsh配置命令窗口
 ---
 
 ## 安装

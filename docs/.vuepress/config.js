@@ -86,10 +86,17 @@ module.exports = {
       ],
       '/tools/': [
         {
-          title: 'FE',
+          title: 'Mac',
           collapsable: true,
           children: [
             '/tools/fe/mac/dos.md'
+          ]
+        },
+        {
+          title: 'Git',
+          collapsable: true,
+          children: [
+            '/tools/fe/git/sshkey.md'
           ]
         }
       ]
