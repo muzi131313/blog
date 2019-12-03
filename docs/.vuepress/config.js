@@ -89,7 +89,7 @@ module.exports = {
           title: 'FE',
           collapsable: true,
           children: [
-            '/front/tools/mac/dos.md'
+            '/tools/fe/mac/dos.md'
           ]
         }
       ]
