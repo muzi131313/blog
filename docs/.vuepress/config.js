@@ -74,6 +74,13 @@ module.exports = {
             '/front/basic/html/html-browser.md',
             '/front/basic/html/html-data-storage.md'
           ]
+        },
+        {
+          title: 'COMMUNICATE',
+          collapsable: false,
+          children: [
+            '/front/basic/communicate/basic.md'
+          ]
         }
       ],
       '/tools/': [

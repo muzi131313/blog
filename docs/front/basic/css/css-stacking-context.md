@@ -30,13 +30,38 @@ title: 6. 层叠上下文
         ```
     - `-webkit-overflow-scrolling` 属性值为 `touch`
 
+### 层叠上下文的特性？
+- 层叠上下文元素的的层叠水平要比普通元素的高
+- 层叠上下文可以阻断元素的混合模式
+- 层叠上下文可以嵌套，内层的层叠上下文受制于外层层叠上下文
+- 每个层叠上下文和兄弟元素独立，即：当发生层叠变化或渲染、只需考虑后代元素
+- 每个层叠上下文自成体系，当元素发生层叠时，整个元素被认为在父级层叠顺序中
+
 ### 层叠等级的顺序?
 - 层叠元素按照特定的顺序规则在 **Z轴** 上垂直显示(是一种规则)
     - “层叠上下文`background`/`border`” 是指层叠上下文背景和边框
+        - `border`/`background` 属于装饰属性，所以在最下层
     - `inline`/`inline-block` 层叠顺序高于 `float`/`block` 元素
-        - 网页设计初衷是展示文字内容，发生重叠时会优先展示文字内容, `border`/`background` 属于装饰属性
+        - 网页设计初衷是展示文字内容，发生重叠时会优先展示文字内容
     - 单纯考虑层叠等级，`z-index: auto` 和 `z-index: 0` 是一样的，但是两者是有区别的
-        - todo??
+        - **谁大谁上**: 有层叠标识时，是谁大谁在上面
+            - `z-index: auto` 的元素是个普通元素
+                - IE6/7中，`z-index: auto` 会产生层叠上下文
+        - **后来居上**: 层叠标识水平一致时，是谁在后面，就谁在上面
+            - `z-index: 0` 会产生一个层叠上下文
+
+### 层叠等级的详细顺序?
+- 层叠上下文 background/border
+- 负 z-index
+- block 块状盒子
+- float 浮动盒子
+- inline/inline-block 水平盒子
+- `z-index: auto`，或看成 `z-index: 0` 不依赖 `z-index` 的层叠上下文
+    - 层叠上下文不依赖 `z-index`，层叠顺序是 `z-index: auto`
+- 正 `z-index`
+    - 层叠上下文依赖 `z-index`，层叠顺序由 `z-index` 值决定
+
+![顺序图示](http://ww1.sinaimg.cn/large/8c4687a3ly1g9eip3gk5pj20g50ajglt.jpg)
 
 ## 参考资料
 - [彻底搞懂CSS层叠上下文、层叠等级、层叠顺序、z-index](https://mp.weixin.qq.com/s/16-Ubn2dNqa0vLNqlO1x3w)
