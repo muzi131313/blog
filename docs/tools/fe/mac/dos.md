@@ -39,20 +39,29 @@ title: 1. 命令窗口
     sh tools/install.sh
     ```
 - 主题配置
-    - [oh-my-zhs/Themes](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes): 主题列表
+    - [oh-my-zsh/Themes](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes): 主题列表
     - 配置
         ```
         vi ~/.zshrc
         # 更改主题: 默认robbyrussell
         ZSH_THEME="af-magic"
+        # 更完毕
+        source ~/.zshrc
         ```
 - 插件配置
+    - `zsh-git`: git相关(默认配置有设置git，但是git插件没有安装，需要安装一下)
+
     - `zsh-autosuggestions`: 自动推荐
         ```
         git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
         vi ~/.zshrc
-        # 修改plugins
-        plugins=(zsh-autosuggestions)
+        # 修改plugins, 注意: 没有逗号分隔，否则报错: `[oh-my-zsh] plugin 'git,' not found`
+        plugins=(
+            # 原来的
+            git
+            # 新增的
+            zsh-autosuggestions
+        )
         # 生效
         source ~/.zshrc
         ```
@@ -65,8 +74,6 @@ title: 1. 命令窗口
         # 生效
         source ~/.zshrc
         ```
-### 用户名
-- 如果想修改创建的管理员用户A, 可以再创建一个管理员账户B, 用B登陆, 然后修改A
 
 ## 参考资料
 - [brew.sh](https://brew.sh/index_zh-cn.html)
