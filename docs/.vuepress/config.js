@@ -38,7 +38,7 @@ module.exports = {
     nav: [
       { text: '概述', link: '/' },
       { text: '前端基础', link: '/front/' },
-      { text: '前端效率', link: '/tools' }
+      { text: '前端效率', link: '/tools/' }
     ],
     // 侧边栏
     sidebar: {
