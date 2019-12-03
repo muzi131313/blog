@@ -32,11 +32,11 @@ title: 1. github配置sshkey
         ```
         #
         # Main github.com github.com
-        # 
+        #
         Host github.com
         HostName github.com
         PubkeyAuthentication yes
-        IdentityFile /Users/liyanfeng/.ssh/ssh-rsa-github
+        IdentityFile /Users/roastwind/.ssh/ssh-rsa-github
         User muzi131313
         ```
 - 下载代码
