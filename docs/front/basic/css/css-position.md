@@ -27,7 +27,7 @@ title: 7. CSS定位
     - 否则，等同于 relative 定位
 
 ## sticky 应用
-- 吸顶
+- 吸顶，[在线示例](https://codepen.io/muzi131313/pen/KKwVXwN)
     ```
     .up-to-top {
       position: -webkit-sticky; /* safari 浏览器 */
