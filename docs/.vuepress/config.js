@@ -63,7 +63,8 @@ module.exports = {
             '/front/basic/css/css-in-bfc-and-ifc.md',
             '/front/basic/css/css-float.md',
             '/front/basic/css/css-table-cell.md',
-            '/front/basic/css/css-stacking-context.md'
+            '/front/basic/css/css-stacking-context.md',
+            '/front/basic/css/css-position.md'
           ]
         },
         {
