@@ -37,7 +37,8 @@ module.exports = {
     // 菜单栏
     nav: [
       { text: '概述', link: '/' },
-      { text: '前端基础', link: '/front/' }
+      { text: '前端基础', link: '/front/' },
+      { text: '前端效率', link: '/tools/' }
     ],
     // 侧边栏
     sidebar: {
@@ -81,6 +82,22 @@ module.exports = {
           collapsable: false,
           children: [
             '/front/basic/communicate/basic.md'
+          ]
+        }
+      ],
+      '/tools/': [
+        {
+          title: 'Mac',
+          collapsable: true,
+          children: [
+            '/tools/fe/mac/dos.md'
+          ]
+        },
+        {
+          title: 'Git',
+          collapsable: true,
+          children: [
+            '/tools/fe/git/sshkey.md'
           ]
         }
       ]
