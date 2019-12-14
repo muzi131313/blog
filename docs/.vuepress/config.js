@@ -81,7 +81,9 @@ module.exports = {
           title: 'COMMUNICATE',
           collapsable: false,
           children: [
-            '/front/basic/communicate/basic.md'
+            '/front/basic/communicate/basic.md',
+            '/front/basic/communicate/cache.md',
+            '/front/basic/communicate/https.md'
           ]
         }
       ],
