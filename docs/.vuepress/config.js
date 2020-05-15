@@ -38,6 +38,7 @@ module.exports = {
     nav: [
       { text: '概述', link: '/' },
       { text: '前端基础', link: '/front/' },
+      { text: 'App开发', link: '/app/' },
       { text: '前端效率', link: '/tools/' }
     ],
     // 侧边栏
@@ -84,6 +85,15 @@ module.exports = {
             '/front/basic/communicate/basic.md',
             '/front/basic/communicate/cache.md',
             '/front/basic/communicate/https.md'
+          ]
+        }
+      ],
+      '/app/': [
+        {
+          title: 'Flutter',
+          collapsable: true,
+          children: [
+            '/app/flutter/flutter-basic.md'
           ]
         }
       ],
