@@ -90,12 +90,33 @@ module.exports = {
       ],
       '/app/': [
         {
-          title: 'Flutter',
+          title: 'Dart基础',
           collapsable: true,
+          children: [
+            '/app/dart/dart-basic.md'
+          ]
+        },
+        {
+          title: 'Flutter基础',
+          collapsable: false,
           children: [
             '/app/flutter/flutter-basic.md'
           ]
-        }
+        },
+        {
+          title: 'Flutter通信',
+          collapsable: false,
+          children: [
+            '/app/flutter/communicate/message.md'
+          ]
+        },
+        {
+          title: 'Flutter插件',
+          collapsable: false,
+          children: [
+            '/app/flutter/plugin/develop-and-usage.md'
+          ]
+        },
       ],
       '/tools/': [
         {
